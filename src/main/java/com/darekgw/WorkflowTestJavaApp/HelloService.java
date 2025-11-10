@@ -9,7 +9,7 @@ public class HelloService {
 
     String verifyUser(String password) {
         if(USER_PASSWORD.equals(password)) {
-            return "You were logged in successfully.";
+            return "You were logged in successfully."
         }
         return "Your password is incorrect.";
     }
